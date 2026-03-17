@@ -6,4 +6,4 @@ RUN apt-get update && \
 
 WORKDIR /app
 
-CMD ["sh", "-c", "screen -DmS app java $JVM_OPTS"]
+CMD ["sh", "-c", "java $JVM_OPTS"]
